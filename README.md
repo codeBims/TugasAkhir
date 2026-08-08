@@ -29,8 +29,8 @@ Model pembanding: `yolov8m-pose.pt` (Medium). File `yolov8n-pose.pt` hanya diund
 
 ## Catatan Penting
 - Semua angka akurasi di buku (MAE, RMSE, rep count) berasal dari run CPU yang konsisten.
-- Run GPU hanya dipakai untuk angka FPS YOLOv8 (sekitar 30,3 FPS). MAE run GPU berbeda karena perbedaan numerik backend setelah instalasi torch CUDA, jadi jangan dicampur dengan angka CPU.
-- Perhitungan sudut memakai koordinat pixel (pixel fix), bukan koordinat ternormalisasi, agar sudut tidak terdistorsi rasio aspek.
+- Run GPU hanya dipakai untuk angka FPS YOLOv8 (sekitar 30,3 FPS). MAE run GPU berbeda karena perbedaan numerik backend setelah instalasi torch CUDA.
+- Perhitungan sudut memakai koordinat pixel (pixel fix).
 
 ## Lingkungan Uji
 - OS: Windows
