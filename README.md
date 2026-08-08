@@ -9,7 +9,6 @@
 Program ini mengestimasi sudut siku dari video Bicep Curl memakai dua model pose estimation (MediaPipe BlazePose dan YOLOv8-Pose), lalu menghitung repetisi otomatis berbasis ambang sudut adaptif serta mengekstraksi parameter kinematika (ROM, kecepatan angular, Time Under Tension).
 
 ## File Program Final
-Hanya empat file ini yang dipakai untuk hasil di buku TA. Sisanya arsip.
 
 | Peran | File | Output |
 |---|---|---|
